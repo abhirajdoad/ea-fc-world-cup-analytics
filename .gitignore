@@ -1,0 +1,18 @@
+# Raw third-party data: not redistributed (see data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+# Full daily dataset is derived one-to-one from SteamDB exports
+data/processed/daily_players.csv
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
